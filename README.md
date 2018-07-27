@@ -2,7 +2,7 @@
 
 In this project, we try to work on [bike demand data](https://www.kaggle.com/c/bike-sharing-demand/data) competition posted on kaggle. We have also explored plotly and graphviz libraries extensively for plotting and visualization. 
 
-The Jupyter Notebook file is [here](https://github.com/abishekarun/Bike-demand-data/blob/master/bike_sharing.ipynb) for this project.
+The Jupyter Notebook file is [here](http://nbviewer.jupyter.org/github/abishekarun/Bike-demand-data/blob/master/bike_sharing.ipynb) for this project.
 
 The resources that helped me are:
 
