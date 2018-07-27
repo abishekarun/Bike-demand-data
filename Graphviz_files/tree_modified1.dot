@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box];
+0 [label="X[0] <= 5.5"];
+1 [label="X[0] <= 1.5\n2684"];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+2 [label="X[0] <= 0.5\n909"];
+1 -> 2;
+3 [label="455"];
+2 -> 3;
+4 [label="454"];
+2 -> 4;
+5 [label="X[0] <= 4.5\n1775"];
+1 -> 5;
+6 [label="1323"];
+5 -> 6;
+7 [label="452"];
+5 -> 7;
+8 [label="X[0] <= 21.5\n8202"];
+0 -> 8  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+9 [label="X[0] <= 7.5\n7290"];
+8 -> 9;
+10 [label="910"];
+9 -> 10;
+11 [label="6380"];
+9 -> 11;
+12 [label="X[0] <= 22.5\n912"];
+8 -> 12;
+13 [label="456"];
+12 -> 13;
+14 [label="456"];
+12 -> 14;
+}
